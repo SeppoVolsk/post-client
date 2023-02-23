@@ -1,0 +1,31 @@
+name: chat_client
+description: A new Flutter project.
+publish_to: 'none'
+version: 0.1.0
+
+environment:
+  sdk: '>=3.0.0-231.0.dev <4.0.0'
+
+dependencies:
+  dio: ^4.0.6
+  flutter:
+    sdk: flutter
+  flutter_bloc: ^8.1.2
+  freezed: ^2.3.2
+  freezed_annotation: ^2.2.0
+  get_it: ^7.2.0
+  hydrated_bloc: ^9.1.0
+  injectable: ^2.1.0
+  injectable_generator: ^2.1.4
+  path_provider: ^2.0.12
+  pretty_dio_logger: ^1.2.0-beta-1
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^2.0.0
+  build_runner: ^2.4.0
+  json_serializable: ^6.6.1
+
+flutter:
+  uses-material-design: true
